@@ -14,9 +14,8 @@ module.exports = {
       },
       keyframes: {
         gradient: {
-          '0%': { transform: 'bg-top' },
-          '50%': { transform: 'bg-left' },
-          '100%': { transform: 'bg-top' },
+          '50%': { 'background-position': '100% 50%' },
+          '100%': { 'background-position': '0% 50%' },
         },
       },
       animation: {
